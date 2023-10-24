@@ -1,13 +1,8 @@
-
-public class InheritanceExample {
+public class Inheritance {
     public static void main(String[] args) {
-        // ! Create a Dog object
-        Dog myDog = new Dog("Buddy", "Golden Retriever");
-
-        // ! Call the overridden speak method
-        myDog.speak(); // ! Output: Buddy (a Golden Retriever dog) barks.
-
-        // ! Call a derived class-specific method
-        myDog.fetch(); // ! Output: Buddy fetches a ball.
+      
+        Cat myCat = new Cat("Gojo", "Persian");
+        myCat.speak();
+        myCat.fetch(); 
     }
 }
